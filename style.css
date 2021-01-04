@@ -50,10 +50,54 @@ p{
 .first_section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    
+    position: relative;
     overflow: hidden;
 }
 /* End of first section design  */
+
+
+
+/* start nav bar design  */
+
+nav{
+    width: 86%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.navclass{
+    margin-right: 24%;
+    font-size: 35px;
+    font-weight: 900;
+    color: #F9765E;
+}
+nav ul li a:hover{
+    color:#F9765E ;
+}
+/* End of the nav bar design  */
 
 
 /* First section div design  */
@@ -61,7 +105,7 @@ p{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 3%;
     float: left;
 }
@@ -139,6 +183,7 @@ h3{
 }
 /* End of divider span design  */
 
+/* Start of third section design  */
 .division{
     box-shadow: 10px 10px 40px gray;    
     height: 350px;
@@ -170,7 +215,10 @@ h3{
     border-image: linear-gradient(45deg, rgb(16, 181, 223), rgba(209, 255, 4, 0.795));
         border-image-slice:1;
 }
+/* End of the third section design  */
 
+
+/* There is footer section  */
 footer{
     
     background: linear-gradient(45deg, rgb(16, 181, 223), rgba(209, 255, 4, 0.795));

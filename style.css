@@ -58,20 +58,29 @@ p{
 
 
 /* start nav bar design  */
-
+.header{
+    padding: 8px 0px;
+    background: linear-gradient(45deg, rgb(16, 181, 223), rgba(209, 255, 4, 0.795));
+    /* position: fixed;
+    z-index: 5; */
+}
 nav{
-    width: 86%;
-    margin: auto;
-    padding: 20px 0px;
+    /* width: 86%; */
+    margin: 0% 7%;
+    /* margin: auto; */
+    padding: 8px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
+    
 }
 
 .logo{
     width: 60px;
     height: 60px;
     cursor: pointer;
+    
 }
 
 nav ul li{
@@ -82,18 +91,23 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 900;
     font-size: 20px;
     transition: all 0.3s;
 }
 
 .navclass{
+    
     margin-right: 24%;
     font-size: 35px;
     font-weight: 900;
-    color: #F9765E;
+    background: linear-gradient(45deg,  #5cfaff,rgb(255, 255, 255), #f55236);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text ;
+    
 }
+
 nav ul li a:hover{
     color:#F9765E ;
 }
@@ -151,10 +165,14 @@ h3{
     padding: 10px 40px;
     font-weight: 700;
     border-radius: 5px;
+    transition: all 0.3s;
 }
 /* End of button anchor tag design  */
 
-
+.btn:hover{
+    background:linear-gradient(45deg, rgb(16, 181, 223), rgba(209, 255, 4, 0.795)) ;
+   
+}
 /* This is the second section design  */
 .second-section{
     background-image: url("images/dream-bg.png");
